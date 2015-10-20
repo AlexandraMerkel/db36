@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mephi SYSTEM "mephi.dtd">
+<mephi name = "National Research Nuclear University" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="/home/serg/db36/xml/mephi.xsd">
+ <faculty name="Cybernetics" shortname="Cyb">
+  <department number="36">
+   <group grnumber="361" year="2013">
+    <student firstname="Дмитрий" lastname="Брагин"/> 
+    <student firstname="Николай" lastname="Иванов"/>
+    <student firstname="Антон" lastname="Чкадуа"/>
+ 
+   </group>
+   <group grnumber="362" year="2013">
+    <student firstname="Алиса" lastname="Артамонова"/> 
+    <student firstname="Александра" lastname="Меркель"/>
+    <student firstname="Валерия" lastname="Порошкина"/>
+ 
+   </group>
+  </department>
+  <department number="33">
+   <group grnumber="331" year="2013">
+    <student firstname="Галина" lastname="Залужная"/> 
+    <student firstname="Александра" lastname="Кузнецова"/>
+    <student firstname="Евгения" lastname="Пискунова"/>
+   </group>
+  </department>		
+ </faculty>
+</mephi> 
