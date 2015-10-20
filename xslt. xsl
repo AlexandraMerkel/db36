@@ -1,0 +1,11 @@
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+   <xsl:output encoding="utf-8" method="html" />
+     
+      <xsl:template match="/" >
+        <xsl:for-each select="//faculty[@shortname='Cyb']/department">
+          <xsl:sort order="ascending" select="@number" data-type="number" />
+          <xsl:value-of select='@number' /> &#160; <xsl:value-of select='@name' />
+          <xsl:if test="position() !=last">, </xsl:if>
+        </xsl:for-each>
+      </xsl:template>
+    </xsl:stylesheet>
