@@ -1,14 +1,30 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE note SYSTEM "mephi.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mephi SYSTEM "mephi.dtd">
 
-<mephi>
-	<faculty name="Кибернетика и информационная безопасность">
-		<department name="Информационные системы и технологии" number="36">
-			<group name="K05-362">
-				<student name="Меркель Александра">Меркель Александра</student>
-				
-			</group>
-		</department>
-	</faculty>
-</mephi>
+<mephi name = "National Research Nuclear University">
+ 
+<faculty name="Cybernetics and Information Security" shortname="Cyb">
+	<department name="Information Systems and Technologies" number="36">
+		<group grnumber="361" year="2013">
+			<student firstname="Дмитрий" lastname="Брагин"/> 
+			<student firstname="Николай" lastname="Иванов"/>
+			<student firstname="Антон" lastname="Чкадуа"/>
+ 
+   		</group>
+   		<group grnumber="362" year="2013">
+    			<student firstname="Алиса" lastname="Артамонова"/> 
+    			<student firstname="Александра" lastname="Меркель"/>
+    			<student firstname="Валерия" lastname="Порошкина"/>
+ 
+   		</group>
+	</department>
+	<department name="Cucucucu" number="33">
+   		<group grnumber="331" year="2013">
+    			<student firstname="Галина" lastname="Залужная"/> 
+    			<student firstname="Александра" lastname="Кузнецова"/>
+    			<student firstname="Евгения" lastname="Пискунова"/>
+   		</group>
+	</department>		
+</faculty>
 
+</mephi> 
