@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mephi SYSTEM "mephi.dtd">
+<mephi name="ФГАОУ ВПО НИЯУ МИФИ" short_name="МИФИ">
+  <facultet name="Факультет кибернетики и информационной безопасности" short_name="КИБ">
+    <department name="Информационные системы и технологии" numer="36">
+      <group name="К01-361" course="1">
+	    <student fio="Васильев Владимир Абдуалиевич"/>
+	    <student fio="Аршба Отари Ионович"/>
+	    <student fio="Липатов Юрий Александрович"/>
+	    <student fio="Попов Сергей Александрович"/>
+	    <student fio="Савельев Дмитрий Владимирович"/>		  
+      </group>
+      <group name="К02-361" course="2">
+	<student fio="Шаккум Мартин Люцианович"/>
+	<student fio="Железняк Сергей Владимирович"/>
+	<student fio="Жуков Александр Дмитриевич"/>
+	<student fio="Исаев Андрей Константинович"/>
+	<student fio="Неверов Сергей Иванович"/>
+	<student fio="Абасов Мамед Магарамович"/>
+      </group>
+    </department>
+    <department name="Кафедра компьютерных систем и технологий" numer="12">
+      <group name="К01-121" course="1">
+	<student fio="Абубакиров Ришат Фазлутдинович"/>
+	<student fio="Агаев Бекхан Вахаевич"/>
+	<student fio="Алексеева Татьяна Олеговна"/>
+	<student fio="Аникеев Григорий Викторович"/>
+	<student fio="Васильев Юрий Викторович"/>		  
+      </group>
+      <group name="К01-121" course="1">
+	<student fio="Вострецов Сергей Алексеевич"/>
+	<student fio="Кабанова Валентина Викторовна"/>
+	<student fio="Казакова Ольга Михайловна"/>
+	<student fio="Ткачев Алексей Николаевич"/>
+	<student fio="Умаханов Умахан Магомедгаджиевич"/>		  
+	<student fio="Фабричный Сергей Юрьевич"/>
+	<student fio="Хамчиев Белан Багаудинович"/>		  
+      </group>
+    </department>
+
+    
+  </facultet>
+  <facultet name="Физико-технический факультет" short_name='Ф'>
+    <department name="Кафедра физических проблем материаловедения" numer="9">
+      <group name="Ф01-091" course="1">
+	<student fio="Вшивцев Владимир Сергеевич"/>
+	<student fio="Глубоковская Эльмира Гусейновна"/>
+	<student fio="Ильясов Радик Сабитович"/>
+	<student fio="Карелин Александр Александрович"/>
+	<student fio="Максимова Надежда Сергеевна"/>		  
+	<student fio="Мануйлова Ирина Викторовна"/>
+	<student fio="Пушков Алексей Константинович"/>		  
+	<student fio="Резник Борис Львович"/>
+	<student fio="Сафин Марат Мубинович"/>		  
+      </group>
+      <group name="Ф02-091" course="1">
+	<student fio="Герасимова Надежда Васильевна"/>
+	<student fio="Игошин Игорь Николаевич"/>
+	<student fio="Кармазина Раиса Васильевна"/>
+	<student fio="Макиев Зураб Гайозович"/>
+      </group>
+    </department>
+    <department name="Кафедра теплофизики" numer="13">
+      <group name="Ф01-131" course="1">
+	<student fio="Геккиев Заур Далхатович"/>
+	<student fio="Климов Виктор Владимирович"/>
+	<student fio="Макаров Андрей Михайлович"/>
+	<student fio="Ресин Владимир Иосифович"/>
+	<student fio="Роднина Ирина Константиновна"/>		  
+	<student fio="Степанова Зоя Михайловна"/>		  
+	<student fio="Тимофеева Ольга Викторовна"/>		  
+      </group>
+      <group name="Ф03-131" course="1">
+	<student fio="Вяткин Дмитрий Федорович"/>
+	<student fio="Галимарданов Марсел Магфурович"/>
+	<student fio="Москвичев Евгений Сергеевич"/>
+	<student fio="Поневежский Владимир Александрович"/>
+	<student fio="Сидякин Александр Геннадьевич"/>		  
+      </group>
+    </department>
+    
+  </facultet>
+</mephi>
