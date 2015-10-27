@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="mephi">
+    <xs:complexType>
+      <xs:sequence minOccurs="0" maxOccurs="unbounded">      
+        <xs:element ref="facultet"/>
+      </xs:sequence>
+      <xs:attribute name="name"/>
+      <xs:attribute name="short_name"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="facultet">
+    <xs:complexType>
+      <xs:sequence minOccurs="0" maxOccurs="unbounded">      
+        <xs:element ref="department"/>
+      </xs:sequence>
+      <xs:attribute name="name"/>
+      <xs:attribute name="short_name">
+        <xs:simpleType>
+	  <xs:restriction base="xs:string">
+	    <xs:pattern value="([АБВГДЕЁЖЗИКЛМНОПРСТУФХЦЧШЩЭУЮЯ])+"/>
+	  </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="department">
+    <xs:complexType>
+      <xs:sequence minOccurs="0" maxOccurs="unbounded">      
+        <xs:element ref="group"/>
+      </xs:sequence>
+      <xs:attribute name="name"/>
+      <xs:attribute name="numer">
+        <xs:simpleType>
+	  <xs:restriction base="xs:integer">
+	    <xs:minInclusive value="1"/>
+	    <xs:maxInclusive value="99"/>
+	  </xs:restriction>
+        </xs:simpleType>
+       </xs:attribute>
+     </xs:complexType>
+   </xs:element>
+
+   <xs:element name="group">
+    <xs:complexType>
+      <xs:sequence minOccurs="0" maxOccurs="25">      
+        <xs:element ref="student"/>
+      </xs:sequence>
+      <xs:attribute name="name"/>
+      <xs:attribute name="course">
+        <xs:simpleType>
+	  <xs:restriction base="xs:integer">
+	    <xs:minInclusive value="0"/>
+	    <xs:maxInclusive value="6"/>
+	  </xs:restriction>
+        </xs:simpleType>
+       </xs:attribute>
+    </xs:complexType>
+   </xs:element>
+
+   <xs:element name="student" type="person"/>
+
+   <xs:complexType name="person">
+       <xs:sequence/>
+       <xs:attribute name="fio"/>
+   </xs:complexType>
+
+</xs:schema>
